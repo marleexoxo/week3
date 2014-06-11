@@ -1,11 +1,11 @@
-name:"Week 3 Website"
-description:"my description"
+name: "Week 3 Website"
+description: "my description"
 
-url:"http://marleexoxo.github.io/week3"
-baseurl:"/week3"
-paginate:10
+url: "http://marleexoxo.github.io/week3"
+baseurl: "/week3"
+paginate: 10
 
-markdown:rdiscount
-permalink:pretty
-pygments:true
+markdown: rdiscount
+permalink: pretty
+pygments: true
 
