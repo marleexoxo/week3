@@ -1,7 +1,7 @@
 name: "Week 3 Website"
 description: "my description"
 
-url: "http://marleexoxo.github.io/week3"
+url: "http://0.0.0.0:4000/week3"
 baseurl: "/week3"
 paginate: 10
 
