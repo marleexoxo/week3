@@ -12,8 +12,12 @@ title: title
 	<h4>I'm going to put some posts here:</h4>
 
 	{% for post in site.posts %}
-		<h3>{{ post.title }}</h3>
-		<p>{{ post.content }}</p>
+		<h3>
+			<a href="{{ post.url }}">
+			{{ post.title }}</a>
+		</h3>
+			<p>{{ post.content }}</p>
+
 	{% endfor %}
 </article>
 </section>
