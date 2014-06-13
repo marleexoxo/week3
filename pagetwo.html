@@ -5,11 +5,13 @@ title: pagtwo
 
 this is my second page
 
+{% for post in site.posts %}
 		{% if post.tag == "first" %}
 		<h3>
 			<!-- connecting posts and turning posts into links-->
 			<a href="{{ site.baseurl }}{{ post.url }}">
-			{{ post.title }}</a>
+			{{ post.title }}
+			</a>
 		</h3>
 			{% end if %}
 
