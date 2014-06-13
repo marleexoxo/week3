@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: my first post
+tag: "first"
 ---
 
 
