@@ -14,8 +14,8 @@ title: title
 	{% for post in site.posts %}
 		<h3>
 			<!-- connecting posts and turning posts into links-->
-			<a href="{{ post.url }}"></a>
-			{{ post.title }}
+			<a href="{{ site.baseurl }}{{ post.url }}">
+			{{ post.title }}</a>
 		</h3>
 			<p>{{ post.content }}</p>
 
