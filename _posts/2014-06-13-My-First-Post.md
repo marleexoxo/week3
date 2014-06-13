@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: my second post
 tag: "second"
 ---
