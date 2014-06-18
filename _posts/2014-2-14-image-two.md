@@ -7,4 +7,4 @@ category: image
 
 
 
-![Alternate Text](images/obsessed.jpg)
+![Alternate Text]( {{ site.baseurl }}/images/obsessed.jpg)
