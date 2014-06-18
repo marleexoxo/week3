@@ -5,4 +5,4 @@ tag: sweet
 category: image
 ---
 
-![Alternate Text](images/sweet.jpg)
+![Alternate Text]( {{ site.baseurl }}/images/sweet.jpg)

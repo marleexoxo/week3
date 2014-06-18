@@ -9,17 +9,11 @@ title: My Image Gallery
 {% for post in site.posts %}
 
 		{% if post.category == "image" %}
-		<!--<h3>
-			
-			<a href="{{ site.baseurl }}{{ post.url }}">
-			{{ post.title }}
-			</a>
-		</h3>-->
-
+		
 	
 
-			<div class="grid-img"><p>
-			{{ post.content}}</p>
+			<div class="grid-img"><p><a>
+			{{ post.content}}</a></p>
 
 </div>
 			{% endif %}
