@@ -5,4 +5,4 @@ tag: dog
 category: image
 ---
 
-![Alternate Text](images/dog.jpg)
+![Alternate Text]( {{ site.baseurl }}/images/dog.jpg)
